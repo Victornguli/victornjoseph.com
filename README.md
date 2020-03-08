@@ -1,1 +1,1 @@
-## Personal Developer website for my portfolio showcase and personal blog
+## Personal Developer website
