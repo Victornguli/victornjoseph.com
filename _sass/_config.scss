@@ -1,0 +1,41 @@
+$primary-color: rgb(253, 252, 252);
+$secondary-color: #444;
+
+
+@mixin easeOut {
+    transition: all 0.5s ease-in;
+}
+
+
+// Media Query Mixins
+@mixin mediaSm {
+
+    // Small screen media query
+    @media screen and (max-width: 500px) {
+        @content;
+    }
+}
+
+@mixin mediaMd {
+
+    // Medium screen media query
+    @media screen and (max-width: 768px) {
+        @content;
+    }
+}
+
+@mixin mediaLg {
+
+    // Large screen media query
+    @media screen and (max-width: 1170px) {
+        @content;
+    }
+}
+
+@mixin mediaXl {
+
+    // Extra Large screen media query
+    @media screen and (max-width: 768px) {
+        @content;
+    }
+}
