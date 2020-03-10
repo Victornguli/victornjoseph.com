@@ -3,6 +3,7 @@
 
 @import 'config';
 @import 'menu';
+@import 'home';
 
 * {
     box-sizing: border-box;
@@ -17,6 +18,11 @@ body {
     line-height: 1.2;
     color: rgb(24, 23, 24);
 }
+
+// Main page content
+main {
+    margin-top: 2rem;
+} 
 
 
 // Page Footer
@@ -35,4 +41,5 @@ body {
 }
 
 
+// Responsive styles and media queries
 @import 'mobile';
