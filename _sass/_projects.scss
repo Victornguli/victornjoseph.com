@@ -1,0 +1,100 @@
+.projects {
+    .title {
+        font-size: 2rem;
+        margin-bottom: .55rem;
+    }
+
+    .project-list {
+        width: 100%;
+        margin: 2rem auto auto auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 1.5rem;
+
+        .project-item {
+            // text-align: center;
+            margin-bottom: 2rem;
+            display: grid;
+            grid-template-areas:
+                "img details";
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 1rem;
+            width: 100%;
+
+            .project-img {
+                grid-area: img;
+                height: 250px;
+                width: 100%;
+                border-radius: 5px;
+            }
+
+            .details {
+                // align-items: flex-start;
+                grid-area: details;
+
+                h4 {
+                    font-size: 1.75rem;
+                }
+
+                .tech {
+                    list-style: none;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-start;
+                    flex-wrap: wrap;
+                    margin: 0;
+                    padding: 0;
+
+                    .tech-tag {
+                        border: 1px solid $primary-color;
+                        border-radius: 5px;
+                        padding: 0.12rem;
+                        font-size: 0.85rem;
+                        margin: 0.25rem 0.2rem 0rem 0.2rem;
+                    }
+                }
+
+                .project-controls {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-items: baseline;
+                    // grid-area: details;
+
+                    a {
+                        color: $primary-color;
+                        text-decoration: none;
+                    }
+
+                    .preview-link,
+                    .github-link {
+                        position: relative;
+                        top: 0;
+                        margin: 0.25rem 0.25rem 0rem 0.25rem;
+                        padding: 0.3rem 0.5rem;
+                        border: 2px solid $primary-color;
+                        border-radius: 10%;
+                        font-size: 0.85rem;
+
+                        &:hover {
+                            cursor: pointer;
+
+                            a {
+                                color: $secondary-color;
+                            }
+
+                            color: $secondary-color;
+                            background: $primary-color;
+                            @include easeOut();
+                        }
+                    }
+
+                    .preview-link {
+                        margin-left: 0.1rem;
+                    }
+                }
+            }
+        }
+    }
+}
