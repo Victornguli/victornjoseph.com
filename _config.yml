@@ -23,17 +23,16 @@ email: victornjoseph@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Hello, World! My name is Victor Nguli Joseph. I am a Software Engineer from Nairobi, Kenya.
 
-  I am currently working at Finance Plan Ltd as a <b>Software Engineer</b> developing and mantaining 
+  I am currently working at Finance Plan Ltd as a Software Engineer developing and mantaining 
   software products for use in the financial sector. On my free time I love learning 
   new state of the art technlogies, building tiny convinience tools and developing profitable 
   microstartup ventures.
-baseurl: "victornguli.github.io" # the subpath of your site, e.g. /blog
-url: "/victornjoseph.com" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://victornguli.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: nguli_victor
 github_username: Victornguli
 
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
 # Exclude from processing.
