@@ -3,6 +3,8 @@
 
 @import 'config';
 @import 'menu';
+@import 'home';
+@import 'projects';
 
 * {
     box-sizing: border-box;
@@ -18,6 +20,11 @@ body {
     color: rgb(24, 23, 24);
 }
 
+// Main page content
+main {
+    margin-top: 2rem;
+} 
+
 
 // Page Footer
 .footer {
@@ -29,10 +36,11 @@ body {
 }
 
 // Page Divider (hr)
-.divider {
-    border-color: rgb(255, 255, 255);
+.page-divider {
     margin-top: 0;
+    margin-bottom: 0;
 }
 
 
+// Responsive styles and media queries
 @import 'mobile';

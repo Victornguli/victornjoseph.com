@@ -9,11 +9,45 @@
     body {
         margin: 0rem 1.75rem;
     }
+
+    .projects {
+
+        .project-list {
+
+            .project-item {
+                display: block;
+
+                .project-img,
+                .details {
+                    display: block;
+                    grid-area: img;
+                    width: 100%;
+                }
+            }
+        }
+    }
 }
 
 // Smartphones 
 @include mediaSm {
     body {
         margin: 0rem 0.75rem;
+    }
+
+    .projects {
+
+        .project-list {
+
+            .project-item {
+                display: block;
+
+                .project-img,
+                .details {
+                    display: block;
+                    grid-area: img;
+                    width: 100%;
+                }
+            }
+        }
     }
 }
