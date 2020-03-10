@@ -5,7 +5,15 @@
 @include mediaLg {}
 
 // Tablets and small laptops
-@include mediaMd {}
+@include mediaMd {
+    body {
+        margin: 0rem 1.75rem;
+    }
+}
 
 // Smartphones 
-@include mediaSm {}
+@include mediaSm {
+    body {
+        margin: 0rem 0.75rem;
+    }
+}
