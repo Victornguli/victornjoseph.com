@@ -1,0 +1,101 @@
+.about {
+    display: grid;
+    grid-template-areas:
+        "bio experience";
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 1rem;
+    cursor: default;
+
+    .bio {
+        grid-area: bio;
+        padding: 1rem;
+        // text-align: center;
+
+        .avatar {
+            text-align: center;
+
+            img {
+                width: 250px;
+                height: 250px;
+                border-radius: 50%;
+            }
+        }
+
+        .intro {
+            margin-top: 1rem;
+        }
+
+        .skills {
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            margin: 0.5rem 0rem 1rem 0rem;
+            padding: 0;
+
+            .skill-tag {
+                border: 1px solid $primary-color;
+                border-radius: 5px;
+                padding: 0.12rem 0.25rem;
+                font-size: 0.85rem;
+                margin: 0.25rem 0.2rem 0rem 0.2rem;
+            }
+        }
+    }
+
+
+    .experience {
+        grid-area: experience;
+        // padding: 1rem;
+
+        .education,
+        .work-history {
+            // margin-bottom: 1rem;
+            padding: 1rem;
+        }
+
+        .education {
+            margin-bottom: 1.5rem;
+        }
+
+        .work-history {
+            // margin: 1rem 0rem;
+
+            .experience-item {
+                margin-bottom: 0rem;
+
+                &:first-child {
+                    margin-top: 1rem;
+                }
+            }
+        }
+
+        .institution {
+            margin: 0rem 0rem 0.45rem 0rem;
+            color: $tertiary-color;
+            font-size: 1.12rem;
+        }
+
+        .date {
+            margin-top: 0.35rem;
+            font-weight: 600;
+        }
+    }
+
+    .card-divider {
+        margin: 1rem 0rem;
+    }
+
+    .card:hover {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        @include easeOut();
+    }
+
+    .section-header {
+        margin-bottom: 1rem;
+        color: $tertiary-color;
+        font-weight: 600;
+        font-size: 1.5rem;
+    }
+}

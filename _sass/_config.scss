@@ -1,11 +1,12 @@
-$background-color: rgb(252, 252, 252);
+$background-color: rgb(243, 239, 239);
 $primary-color: #471537;
 $secondary-color: rgb(230, 245, 238);
+$tertiary-color: #373952;
 
 
 
 @mixin easeOut {
-    transition: all 0.4s ease-in;
+    transition: all 0.1s ease-in-out;
 }
 
 
@@ -21,7 +22,7 @@ $secondary-color: rgb(230, 245, 238);
 @mixin mediaMd {
 
     // Medium screen media query
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 991px) {
         @content;
     }
 }
