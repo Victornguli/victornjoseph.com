@@ -39,6 +39,15 @@
         .education,
         .work-history {
             margin-bottom: 1rem;
+            display: block;
+        }
+    }
+
+    .contact {
+        .contact-form {
+            form {
+                width: 100%;
+            }
         }
     }
 }
@@ -46,23 +55,16 @@
 // Smartphones 
 @include mediaSm {
     body {
-        margin: 0rem 0.75rem;
+        margin: 0rem 1.75rem;
     }
 
-    // .projects {
+    .contact {
+        box-sizing: none;
 
-    //     .project-list {
-
-    //         .project-item {
-    //             display: block;
-
-    //             .project-img,
-    //             .details {
-    //                 display: block;
-    //                 grid-area: img;
-    //                 width: 100%;
-    //             }
-    //         }
-    //     }
-    // }
+        .contact-form {
+            form {
+                width: 100%;
+            }
+        }
+    }
 }

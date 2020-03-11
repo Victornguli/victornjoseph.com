@@ -5,6 +5,7 @@
         "bio experience";
     grid-template-columns: 2fr 2fr;
     grid-gap: 1rem;
+    cursor: default;
 
     .bio {
         grid-area: bio;
@@ -73,7 +74,7 @@
 
         .institution {
             margin: 0rem 0rem 0.45rem 0rem;
-            color: #373952;
+            color: $tertiary-color;
             font-size: 1.12rem;
         }
 
@@ -94,7 +95,7 @@
 
     .section-header {
         margin-bottom: 1rem;
-        color: #373952;
+        color: $tertiary-color;
         font-weight: 600;
         font-size: 1.5rem;
     }
