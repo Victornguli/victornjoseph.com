@@ -11,8 +11,13 @@
     }
 
     .projects {
+        .title {
+            font-size: 2rem;
+            margin-bottom: 0.55rem;
+        }
 
         .project-list {
+            margin: 1.5rem auto auto auto;
 
             .project-item {
                 display: block;
