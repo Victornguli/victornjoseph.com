@@ -1,0 +1,58 @@
+--- 
+---
+
+@import 'config';
+@import 'menu';
+@import 'home';
+@import 'projects';
+@import 'about';
+@import 'contact';
+
+* {
+    box-sizing: border-box;
+}
+
+// Body Styling
+body {
+    font-family: "Circular", sans-serif;
+    font-size: 1rem;
+    background: $background-color;
+    margin: 0rem 10rem;
+    line-height: 1.2;
+    color: rgb(39, 39, 39);
+}
+
+// Main page content
+main {
+    margin-top: 2rem;
+
+    // Top page heading
+    .page-header {
+        // margin-bottom: 1rem;
+        color: $primary-color;
+        font-weight: 600;
+        font-size: 1.8rem;
+    }
+} 
+
+
+// Page Footer
+.footer {
+    padding: 5rem 0rem 1rem 0rem;
+    .footer-text {
+        // padding-top: 3rem;
+        font-size: 1rem;
+        color: rgb(48, 47, 48);
+    }
+}
+
+
+// Page Divider (hr)
+.page-divider {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+// Responsive styles and media queries
+@import 'mobile';

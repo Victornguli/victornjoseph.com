@@ -1,0 +1,70 @@
+// Widescreens
+@include mediaXl {}
+
+// Desktops and laptops
+@include mediaLg {}
+
+// Tablets and small laptops
+@include mediaMd {
+    body {
+        margin: 0rem 1.75rem;
+    }
+
+    .projects {
+        .title {
+            font-size: 2rem;
+            margin-bottom: 0.55rem;
+        }
+
+        .project-list {
+            margin: 1.5rem auto auto auto;
+
+            .project-item {
+                display: block;
+
+                .project-img,
+                .details {
+                    display: block;
+                    grid-area: img;
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .about {
+        display: block;
+
+        .bio,
+        .education,
+        .work-history {
+            margin-bottom: 1rem;
+            display: block;
+        }
+    }
+
+    .contact {
+        .contact-form {
+            form {
+                width: 100%;
+            }
+        }
+    }
+}
+
+// Smartphones 
+@include mediaSm {
+    body {
+        margin: 0rem 1.75rem;
+    }
+
+    .contact {
+        box-sizing: none;
+
+        .contact-form {
+            form {
+                width: 100%;
+            }
+        }
+    }
+}

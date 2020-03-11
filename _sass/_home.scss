@@ -1,0 +1,55 @@
+.home {
+    width: 100%;
+    margin: 0rem auto;
+    text-align: center;
+
+    .avatar {
+
+        .avatar-img {
+            height: 250px;
+            width: 250px;
+            border-radius: 50%;
+
+            &:hover {
+                opacity: 0.8;
+            }
+        }
+    }
+
+    .intro {
+        margin: 1.5rem 0rem 1.5rem 0rem;
+        font-size: 1.25rem;
+        color: #444;
+
+        h3 {
+            font-size: 2rem;
+            font-weight: 600;
+            color: $tertiary-color;
+        }
+
+        b {
+            color: $primary-color;
+        }
+    }
+
+    .social-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        .social-icon {
+            margin: 0.25rem 0.5rem 0rem 0.5rem;
+            padding: 0.3rem;
+            border: 2px solid $primary-color;
+            border-radius: 10%;
+            cursor: pointer;
+
+            &:hover {
+                background: $primary-color;
+                color: $secondary-color;
+                @include easeOut();
+            }
+        }
+    }
+}

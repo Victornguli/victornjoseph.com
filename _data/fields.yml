@@ -1,0 +1,20 @@
+title: "Victor Nguli"
+name: "Victor Nguli Joseph"
+email: "victornjoseph@gmail.com"
+github: "Victornguli"
+linkedin:
+description: >- # this means to ignore newlines until "about:"
+  Hello, World! My name is Victor Nguli Joseph. I am a Software Engineer from Nairobi, Kenya.
+
+  I am currently working at Finance Plan Ltd as a Software Engineer developing and mantaining 
+  software products for use in the financial sector. On my free time I love learning 
+  new state of the art technlogies, building tiny convinience tools and developing profitable 
+  microstartup ventures.
+
+about: >-
+  Hello, World! My name is Victor Nguli Joseph. I am a Software Engineer from Nairobi, Kenya.
+
+  On my free time I love learning new state of the art technlogies, building tiny convinience tools and 
+  developing profitable microstartup ventures.
+
+short_description: Victor Nguli Joseph, <b>Software Engineer</b> at Finance Plan Ltd.
