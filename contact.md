@@ -1,5 +1,5 @@
 ---
 layout: contact
 title: Contact Me
-permalink: /about/
+permalink: /contact/
 ---
