@@ -1,4 +1,4 @@
-$background-color: rgb(252, 252, 252);
+$background-color: rgb(243, 239, 239);
 $primary-color: #471537;
 $secondary-color: rgb(230, 245, 238);
 
@@ -21,7 +21,7 @@ $secondary-color: rgb(230, 245, 238);
 @mixin mediaMd {
 
     // Medium screen media query
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 991px) {
         @content;
     }
 }

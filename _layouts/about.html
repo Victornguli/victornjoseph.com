@@ -2,40 +2,84 @@
 layout: default
 ---
 
+<!-- <h2>About Me</h2> -->
 <div class="about">
-    <h2 class="post-list post-header">{{ page.title }}</h2>
-    <!-- TODO Add Avatar/Image -->
-    <div class="avatar">
-        <img src="" alt="">
-    </div>
-    <div class="intro">
-        <p>Lorem ipsum dolor sit amet.
+    <div class="bio card">
+        <h3 class="post-list section-header">About me</h3>
+        <!-- TODO Add Avatar/Image -->
+        <div class="avatar">
+            <img src="https://www.weskilled.com/wp-content/uploads/2019/07/male-gravatar-compressor.png" alt="">
+        </div>
+        <div class="intro">
+            Lorem ipsum dolor sit amet.
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus debitis iure, rerum assumenda error
             doloremque.
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis repellendus quae enim ducimus minima
-            culpa cumque corporis unde eius. Architecto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
+            culpa cumque corporis unde eius. Architecto. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Quod,
             quia! <b>Lorem ipsum dolor sit amet.</b>
-        </p>
+        </div>
+        <div class="card card-divider"></div>
+        <h3 class="section-header">Skills and interests</h3>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quos quaerat, fugiat quam placeat aliquam:
+        <ul class="skills">
+            <li class="skill-tag">lorem</li>
+            <li class="skill-tag">Ipsum</li>
+            <li class="skill-tag">Dolor</li>
+            <li class="skill-tag">Est</li>
+            <li class="skill-tag">Sit amet.</li>
+        </ul>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ratione aliquid quaerat totam consequatur
+        delectus sequi est modi perspiciatis sint? Velit, eum! Quis dolorum quibusdam laborum, amet nesciunt repellat
+        consequuntur!
     </div>
 
-    <ul class="skills">
-        <li class="skill-item">Python</li>
-        <li class="skill-item">Django</li>
-        <li class="skill-item">Postgres</li>
-        <li class="skill-item">JavaScript</li>
-        <li class="skill-item">Angular</li>
-        <li class="skill-item">Jekyll</li>
-        <li class="skill-item">Markdown</li>
-        <li class="skill-item">Linux Server Administration</li>
-        <li class="skill-item">Docker</li>
-        <li class="skill-item">JQuery, HTML/CSS</li>
-    </ul>
+    <div class="experience">
+        <div class="education card">
+            <h3 class="section-header">Education</h3>
+            <div class="institution">
+                <b>BSC. Computer Science - <span class="text-muted"> Chuka University</span></b>
+            </div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo assumenda rem inventore ab in,
+            consequuntur nam quisquam officiis vel, quia, autem adipisci aliquam facilis impedit.
+            <div class="text-muted date">Sept 2015 - Oct 2019</div>
+        </div>
 
-    <div class="work-history">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quisquam minima quaerat dolorem? Nihil, modi?
-        Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quia illo ut temporibus
-        placeat! Repellat molestias illo quibusdam quasi adipisci?
+        <!-- <div class="card card-divider"></div> -->
+        <div class="work-history card">
+            <h3 class="section-header">Experience</h3>
+
+            <div class="experience-item">
+                <div class="institution">
+                    <b>Software Developer - <span class="text-muted">Financeplan Limited</span></b>
+                </div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quisquam minima quaerat dolorem?
+                Nihil,
+                modi?
+                Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quia illo
+                ut
+                temporibus
+                placeat! Repellat molestias illo quibusdam quasi adipisci?
+                <div class="text-muted date">August 2019 - Present</div>
+            </div>
+
+            <div class="card card-divider"></div>
+
+            <div class="experience-item">
+                <div class="institution">
+                    <b>Software Engineering intern - <span class="text-muted">Gearbox Ltd</span> </b>
+                </div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quisquam minima quaerat dolorem?
+                Nihil,
+                modi?
+                Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quia illo
+                ut
+                temporibus
+                placeat! Repellat molestias illo quibusdam quasi adipisci?
+                <div class="text-muted date">April 2019 - August 2019</div>
+            </div>
+        </div>
     </div>
-    
+
     {{ content }}
 </div>

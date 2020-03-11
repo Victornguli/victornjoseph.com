@@ -34,7 +34,16 @@
                 grid-area: details;
 
                 h4 {
-                    font-size: 1.75rem;
+                    font-size: 1.55rem;
+
+                    a {
+                        color: $primary-color;
+                    }
+                }
+
+                .description {
+                    font-size: 1.05rem;
+                    margin-bottom: 0.75rem;
                 }
 
                 .tech {

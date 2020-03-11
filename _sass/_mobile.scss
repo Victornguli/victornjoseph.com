@@ -31,6 +31,16 @@
             }
         }
     }
+
+    .about {
+        display: block;
+
+        .bio,
+        .education,
+        .work-history {
+            margin-bottom: 1rem;
+        }
+    }
 }
 
 // Smartphones 
@@ -39,20 +49,20 @@
         margin: 0rem 0.75rem;
     }
 
-    .projects {
+    // .projects {
 
-        .project-list {
+    //     .project-list {
 
-            .project-item {
-                display: block;
+    //         .project-item {
+    //             display: block;
 
-                .project-img,
-                .details {
-                    display: block;
-                    grid-area: img;
-                    width: 100%;
-                }
-            }
-        }
-    }
+    //             .project-img,
+    //             .details {
+    //                 display: block;
+    //                 grid-area: img;
+    //                 width: 100%;
+    //             }
+    //         }
+    //     }
+    // }
 }
