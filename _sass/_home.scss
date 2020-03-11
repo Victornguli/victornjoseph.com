@@ -20,6 +20,16 @@
         margin: 1.5rem 0rem 1.5rem 0rem;
         font-size: 1.25rem;
         color: #444;
+
+        h3 {
+            font-size: 2rem;
+            font-weight: 600;
+            color: $tertiary-color;
+        }
+
+        b {
+            color: $primary-color;
+        }
     }
 
     .social-links {
