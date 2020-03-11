@@ -25,6 +25,14 @@ body {
 // Main page content
 main {
     margin-top: 2rem;
+
+    // Top page heading
+    .page-header {
+        // margin-bottom: 1rem;
+        color: $primary-color;
+        font-weight: 600;
+        font-size: 1,8rem;
+    }
 } 
 
 
