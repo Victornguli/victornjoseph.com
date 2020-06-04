@@ -33,24 +33,20 @@
 
             .nav-link {
                 color: $primary-color;
-                font-weight: bold;
                 font-size: 1.15rem;
                 // padding-bottom: 05rem;
                 margin: 0rem 0.25rem;
-                opacity: .8;
-
-                &:hover {
-                    color: $secondary-color;
-                    @include easeOut();
-
-                }
+                opacity: 1;
             }
 
             &:hover {
+                .nav-link {
+                    color: $secondary-color;
+                }
+
                 border: 1px solid $primary-color;
-                color: $secondary-color;
                 background: $primary-color;
-                @include easeOut();
+                transition: all 0.4s ease-in-out;
             }
         }
     }

@@ -1,15 +1,11 @@
-let menuBtn = document.querySelector('.menu-btn');
-let siteNav = document.querySelector('.site-nav');
-let navItems = document.querySelectorAll('.nav-item');
+window.onload = function () {
+    footerYear = document.querySelector("#footer-year");
+    footerYear.innerHTML = this.getCurrentYear();
+}
 
-menuBtn.addEventListener('click', openMenu);
 
-
-function openMenu() {
-    menuBtn.classList.toggle('close');
-    siteNav.classList.toggle('show');
-
-    navItems.forEach(item => {
-        item.classList.toggle('show')
-    });
+// Get current year for footer copyright display
+function getCurrentYear() {
+    now = new Date()
+    return now.getFullYear();
 }

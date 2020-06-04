@@ -15,7 +15,7 @@
             text-align: center;
 
             img {
-                width: 250px;
+                width: 200px;
                 height: 250px;
                 border-radius: 50%;
             }
@@ -23,6 +23,11 @@
 
         .intro {
             margin-top: 1rem;
+
+            .intro-header {
+                color: $primary-color;
+                font-weight: 600;
+            }
         }
 
         .skills {
