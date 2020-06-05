@@ -38,11 +38,49 @@ main {
 
 // Page Footer
 .footer {
-    padding: 5rem 0rem 1rem 0rem;
+    padding: 0rem 0rem 1rem 0rem;
+    
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
     .footer-text {
         // padding-top: 3rem;
         font-size: 1rem;
         color: rgb(48, 47, 48);
+    }
+
+    .social-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        .social-icon {
+            margin: 0.25rem 0.5rem 0rem 0.5rem;
+            padding: 0.3rem;
+            border: 2px solid $primary-color;
+            border-radius: 10%;
+            cursor: pointer;
+
+            a {
+                color: $primary-color;
+                text-decoration: none;
+            }
+
+            &:hover {
+                background: $primary-color;
+                color: $secondary-color;
+                @include easeOut();
+
+                a {
+                    color: $secondary-color;
+                }
+            }
+        }
     }
 }
 
