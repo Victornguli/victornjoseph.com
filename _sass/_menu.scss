@@ -38,19 +38,16 @@
 
             .nav-link {
                 color: $primary-color;
-                font-size: 1.15rem;
+                font-size: 1rem;
+                font-weight: 500;
                 // padding-bottom: 05rem;
                 margin: 0rem 0.25rem;
                 opacity: 1;
+                // padding: 0;
             }
 
             &:hover {
-                .nav-link {
-                    color: $secondary-color;
-                }
-
                 border: 1px solid $primary-color;
-                background: $primary-color;
                 transition: all 0.4s ease-in-out;
             }
         }

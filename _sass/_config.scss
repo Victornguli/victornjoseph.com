@@ -2,6 +2,7 @@ $background-color: rgb(243, 239, 239);
 $primary-color: #471537;
 $secondary-color: rgb(230, 245, 238);
 $tertiary-color: #373952;
+$gradient: linear-gradient(#e66465, #9198e5);
 
 
 
@@ -14,7 +15,7 @@ $tertiary-color: #373952;
 @mixin mediaSm {
 
     // Small screen media query
-    @media screen and (max-width: 500px) {
+    @media screen and (max-width: 570px) {
         @content;
     }
 }
