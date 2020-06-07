@@ -1,37 +1,29 @@
 .projects {
     .title {
         font-size: 2rem;
-        margin-bottom: .55rem;
+        // margin-bottom: .55rem;
     }
 
     .project-list {
         width: 100%;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding: 1.5rem;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
 
         .project-item {
-            // text-align: center;
-            margin: 1rem 0rem;
-            display: grid;
-            grid-template-areas:
-                "img details";
-            grid-template-columns: repeat(2, 1fr);
-            grid-gap: 1rem;
-            width: 100%;
-
+            margin-bottom: 1rem;
+            width: 49%;
+            height: 100%;
 
             .project-img {
-                grid-area: img;
                 height: 100%;
                 width: 100%;
-                border-radius: 5px;
+                border-radius: 10px;
             }
 
             .details {
-                // align-items: flex-start;
-                grid-area: details;
+                padding: 1rem;
 
                 h4 {
                     margin: 0rem 0rem 0.45rem 0rem;
@@ -107,6 +99,16 @@
                     }
                 }
             }
+
+            &.card {
+                border-radius: 10px;
+            }
+
+            &:hover {
+                box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(255, 255, 255, 0.19);
+                @include easeOut();
+            }
+
         }
 
     }

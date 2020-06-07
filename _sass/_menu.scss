@@ -1,5 +1,5 @@
 .header {
-    margin-top: 2rem;
+    margin-top: 1rem;
 
     .bg-light {
         background: $background-color !important;
@@ -37,12 +37,8 @@
 
             .nav-link {
                 color: $primary-color;
-                font-size: 1rem;
-                font-weight: 500;
-                // padding-bottom: 05rem;
+                font-weight: 400;
                 margin: 0rem 0.25rem;
-                opacity: 1;
-                // padding: 0;
             }
 
             &:hover {

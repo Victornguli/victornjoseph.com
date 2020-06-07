@@ -3,6 +3,14 @@
     margin: 0rem auto;
     text-align: left;
 
+    .page-header.top-page-header {
+        display: inline;
+        padding: 0.2rem 0.5rem;
+        background-color: rgb(215, 253, 232);
+        color: $primary-color;
+        // font-weight: bold;
+    }
+
     .avatar {
 
         .avatar-img {
@@ -18,8 +26,6 @@
 
     .intro {
         margin: 1.5rem 0rem 1.5rem 0rem;
-        font-size: 1rem;
-        color: #444;
 
         h3 {
             font-size: 2rem;
