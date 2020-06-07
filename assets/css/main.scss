@@ -5,8 +5,6 @@
 @import 'menu';
 @import 'home';
 @import 'projects';
-@import 'about';
-@import 'contact';
 
 * {
     box-sizing: border-box;
@@ -34,6 +32,14 @@ main {
         color: $primary-color;
         font-weight: 600;
         font-size: 1.8rem;
+
+        &.top-page-header {
+            display: inline;
+            padding: 0.2rem 0.5rem;
+            background-color: rgb(255, 255, 255);
+            color: $primary-color;
+            // font-weight: bold;
+        }
     }
 } 
 
