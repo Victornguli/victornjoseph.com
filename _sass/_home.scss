@@ -28,7 +28,7 @@
                     display: inline-block;
                     height: 4rem;
                     width: 4rem;
-                    background: url("/assets/img/profile_small.jpg");
+                    background: url("/assets/img/profile_small_2.jpg");
                     border-radius: 100%;
                     background-position: center;
                     background-repeat: no-repeat;
@@ -37,6 +37,7 @@
                     &:hover {
                         transform: scale(1.2);
                         transition: transform 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+                        border: 2px solid $primary-color;
                     }
 
                     &:focus {
