@@ -1,7 +1,7 @@
 .container {
     // Add gradient border to this part
     background: #ffffff;
-    border-bottom: 5px solid $primary-color;
+    min-height: 90%;
 
     .banner {
         position: relative;
@@ -10,7 +10,6 @@
         background: $background;
         border: 5px solid $primary-color;
         z-index: 1;
-
 
         .nav {
             padding-top: 1rem;

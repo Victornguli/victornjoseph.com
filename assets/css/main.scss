@@ -2,13 +2,17 @@
 ---
 
 @import 'config';
-@import 'menu';
 @import 'home';
 @import 'projects';
 
 
 * {
     box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    margin: 0;
 }
 
 // Body Styling
@@ -34,10 +38,6 @@ body {
 
 // Page Footer
 .footer {
-    .container {
-        text-align: center;
-    }
-
     .footer-text {
         font-size: 0.9rem;
         opacity: 0.9;
