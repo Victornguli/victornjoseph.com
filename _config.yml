@@ -51,3 +51,4 @@ exclude:
   - vendor/ruby/
 
 show_excerpts: true
+jekyll_url: https://jekyllrb.com/
