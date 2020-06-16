@@ -1,6 +1,6 @@
-$primary-color: rgb(235, 67, 37);
-$secondary-color:rgba(242, 112, 156, 1);
-$gradient: linear-gradient(90deg, $secondary-color 0%, $primary-color 100%);
+$secondary-color: rgb(235, 67, 37);
+$primary-color:rgba(242, 112, 156, 1);
+$gradient: linear-gradient(90deg, $primary-color 0%, $secondary-color 100%);
 $background: #172430;
 
 

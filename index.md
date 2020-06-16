@@ -3,4 +3,6 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+banner_content: >-
+ <h1>&#128075; Hi! I am Victor Nguli, a fullstack software engineer and a indie product maker</h1>
 ---
