@@ -1,141 +1,48 @@
-.container {
-    // Add gradient border to this part
-    background: #ffffff;
-    min-height: 90%;
-
-    .banner {
-        position: relative;
-        text-align: center;
-        color: #ffffff;
-        background: $background;
-        border: 5px solid $primary-color;
-        z-index: 1;
-
-        .nav {
-            padding-top: 1rem;
-
-            .nav-brand {
-                a {
-                    text-decoration: none;
-                    color: #ffffff;
-
-                    &:focus {
-                        border: none;
-                    }
-                }
-
-                .nav-brand-img {
-                    display: inline-block;
-                    height: 4rem;
-                    width: 4rem;
-                    background: url("/assets/img/profile_small_2.jpg");
-                    border-radius: 100%;
-                    background-position: center;
-                    background-repeat: no-repeat;
-                    background-size: 100% 100%;
-
-                    &:hover {
-                        transform: scale(1.2);
-                        transition: transform 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-                        border: 2px solid $primary-color;
-                    }
-
-                    &:focus {
-                        border: none;
-                        outline: none;
-                    }
-                }
-            }
-
-            ul.nav-list {
-                padding: 0 !important;
-                list-style-type: none;
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-                flex-wrap: wrap;
-
-                li.nav-item {
-                    padding: 0.5rem;
-
-                    a {
-                        text-decoration: none;
-                        color: #ffffff;
-                        transition: all 0.4s ease-in-out;
-
-
-                        &::after {
-                            border-bottom: 3px solid $primary-color;
-                            content: '';
-                            display: block;
-                            font-weight: inherit;
-                            left: 0;
-                            transition: 0.4s ease-in-out;
-                            padding-bottom: 8px;
-                            width: 0;
-                        }
-
-                        &:hover {
-                            &::after {
-                                width: 100%;
-                            }
-                        }
-                    }
-
-                    &.active a {
-                        &::after {
-                            width: 100%;
-                        }
-                    }
-                }
-            }
-        }
-
-        .banner-content {
-            margin: auto;
-            padding-bottom: 2rem;
-            width: 90%;
-
-
-            .banner-content-subheading {
-                opacity: 0.8;
-                font-weight: 400;
-            }
-        }
+.home {
+    .intro {
+        font-size: 1.15rem;
+        line-height: 1.5;
     }
 
-    .main {
-        margin: 1rem;
-        word-wrap: none;
-        text-align: left;
-        letter-spacing: 0px;
+    ul{
+        list-style: circle;
     }
+    a {
+        color: $secondary-color;
+        text-decoration: none;
+        // padding: 2px 2px;
 
-    // .banner { Desktop version
-    //     margin: 2rem;
-    //     background: #172430;
-    //     color: #ffffff;
-
-    //     .nav{
-    //         display: flex;
-    //         flex-direction: row;
-    //         justify-content: space-between;
-
-    //         ul{
-    //             list-style: none;
-    //             display: flex;
-    //             flex-direction: row;
-    //             justify-items: flex-end;
-
-    //             li{
-    //                 a{
-    //                     text-decoration: none;
-    //                     color: #ffffff;
-    //                     padding: 0rem 1rem;
-    //                 }
-    //             }
-    //         }
-    //     }
-    // }
-    // background-color: rgb(245, 84, 111);
+        &:hover{
+            color: $primary-color;
+            text-decoration: underline;
+        }
+    }
 }
+
+// .banner { Desktop version
+//     margin: 2rem;
+//     background: #172430;
+//     color: #ffffff;
+
+//     .nav{
+//         display: flex;
+//         flex-direction: row;
+//         justify-content: space-between;
+
+//         ul{
+//             list-style: none;
+//             display: flex;
+//             flex-direction: row;
+//             justify-items: flex-end;
+
+//             li{
+//                 a{
+//                     text-decoration: none;
+//                     color: #ffffff;
+//                     padding: 0rem 1rem;
+//                 }
+//             }
+//         }
+//     }
+// }
+// background-color: rgb(245, 84, 111);
