@@ -10,34 +10,34 @@ $background: #172430;
 
 
 // Media Query Mixins
-@mixin mediaSm {
+// @mixin mediaSm {
 
-    // Small screen media query
-    @media screen and (max-width: 570px) {
-        @content;
-    }
-}
+//     // Small screen media query
+//     @media screen and (max-width: 570px) {
+//         @content;
+//     }
+// }
 
-@mixin mediaMd {
+// @mixin mediaMd {
 
-    // Medium screen media query
-    @media screen and (max-width: 991px) {
-        @content;
-    }
-}
+//     // Medium screen media query
+//     @media screen and (max-width: 990px) {
+//         @content;
+//     }
+// }
 
 @mixin mediaLg {
 
     // Large screen media query
-    @media screen and (max-width: 1170px) {
+    @media screen and (min-width: 768px) {
         @content;
     }
 }
 
-@mixin mediaXl {
+// @mixin mediaXl {
 
-    // Extra Large screen media query
-    @media screen and (max-width: 768px) {
-        @content;
-    }
-}
+//     // Extra Large screen media query
+//     @media screen and (max-width: 1168px) {
+//         @content;
+//     }
+// }

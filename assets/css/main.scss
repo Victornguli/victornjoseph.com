@@ -170,7 +170,7 @@ body {
         opacity: 0.9;
         width: 90%;
         margin: auto;
-        padding: 1rem 0;
+        padding: 1.5rem 0;
         text-align: center;
         a {
             text-decoration: none;
@@ -187,4 +187,4 @@ body {
 }
 
 // Responsive styles and media queries
-// @import 'mobile';
+@import 'mobile';
