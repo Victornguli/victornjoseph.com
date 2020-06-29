@@ -1,0 +1,61 @@
+.posts {
+    ul.post-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        li.post-item {
+            padding: 1.5rem 0;
+            border-bottom: 1px dotted $secondary-color;
+
+            .post-meta {
+                text-transform: uppercase;
+                font-size: 0.8rem;
+                font-weight: 600;
+                opacity: 0.7;
+            }
+
+            .post-link {
+                text-decoration: none;
+                color: #444;
+                display: block;
+
+                .post-title {
+                    margin: 0.1rem 0 0.3rem 0;
+                    padding: 2px 1.5px;
+                    font-size: 1.5rem;
+                    display: inline-block;
+                }
+
+                .post-excerpt {
+                    font-size: 1rem;
+                    opacity: 0.9;
+                }
+
+                &:hover {
+                    .post-title {
+                        color: #ffffff;
+                        background: $gradient;
+                        border-radius: 5px;
+                    }
+                }
+            }
+        }
+    }
+
+    .rss-subscribe {
+        margin-top: 1rem;
+        font-size: 0.9rem;
+        font-weight: 500;
+
+        a {
+            color: blue;
+            text-decoration: none;
+
+            &:hover {
+                color: $secondary-color;
+                text-decoration: underline;
+            }
+        }
+    }
+}

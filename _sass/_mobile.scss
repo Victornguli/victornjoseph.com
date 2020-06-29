@@ -1,80 +1,101 @@
-// Widescreens
-@include mediaXl {}
-
 // Desktops and laptops
-@include mediaLg {}
-
-// Tablets and small laptops
-@include mediaMd {
+@include mediaLg {
     body {
-        margin: 0rem 1.75rem;
-    }
-
-    .projects {
-        .title {
-            font-size: 2rem;
-            margin-bottom: 0.55rem;
+        &::before {
+            height: 15px;
         }
 
-        .project-list {
-            margin: 1.5rem auto auto auto;
+        &::after {
+            height: 15px;
+        }
+    }
 
-            .project-item {
-                display: block;
+    .container {
+        .banner {
+            border: 15px solid $primary-color;
 
-                .project-img,
-                .details {
-                    display: block;
-                    grid-area: img;
-                    width: 100%;
+            .nav {
+                padding: 1rem 2rem 0 2rem;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+
+                .nav-brand {
+                    .nav-brand-img {
+                        height: 3rem;
+                        width: 3rem;
+                    }
                 }
 
-                .details {
-                    .project-title {
-                        margin-top: 1rem;
+                ul.nav-list {
+                    li.nav-item {
+                        padding: 0.5rem 1rem 0.5rem 1rem;
                     }
                 }
             }
-        }
-    }
 
-    .about {
-        display: block;
-
-        .bio,
-        .education,
-        .work-history {
-            margin-bottom: 1rem;
-            display: block;
-        }
-    }
-
-    .contact {
-        .contact-form {
-            form {
-                width: 100%;
+            .banner-content {
+                width: 80%;
             }
+        }
+
+        .main {
+            width: 60%;
+            margin: auto;
         }
     }
 }
 
-// Smartphones 
-@include mediaSm {
-    body {
-        margin: 0rem 1.75rem;
-    }
+// Tablets and small laptops
+// @include mediaMd {
+//     body {
+//         margin: 0rem 1.75rem;
+//     }
 
-    .header .navbar .navbar-nav .nav-item.top {
-        margin-top: 1rem;
-    }
+//     .projects {
+//         .title {
+//             font-size: 2rem;
+//             margin-bottom: 0.55rem;
+//         }
 
-    .contact {
-        box-sizing: none;
+//         .project-list {
+//             margin: 1.5rem auto auto auto;
 
-        .contact-form {
-            form {
-                width: 100%;
-            }
-        }
-    }
-}
+//             .project-item {
+//                 display: block;
+
+//                 .project-img,
+//                 .details {
+//                     display: block;
+//                     grid-area: img;
+//                     width: 100%;
+//                 }
+
+//                 .details {
+//                     .project-title {
+//                         margin-top: 1rem;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+
+//     .about {
+//         display: block;
+
+//         .bio,
+//         .education,
+//         .work-history {
+//             margin-bottom: 1rem;
+//             display: block;
+//         }
+//     }
+
+//     .contact {
+//         .contact-form {
+//             form {
+//                 width: 100%;
+//             }
+//         }
+//     }
+// }
