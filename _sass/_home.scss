@@ -1,40 +1,48 @@
 .home {
-    width: 100%;
-    margin: 0rem auto;
-    text-align: left;
-
-    .avatar {
-
-        .avatar-img {
-            height: 300px;
-            width: 250px;
-            border-radius: 50%;
-
-            &:hover {
-                opacity: 0.8;
-            }
-        }
-    }
-
     .intro {
-        margin: 1.5rem 0rem 1.5rem 0rem;
+        font-size: 1.15rem;
+        line-height: 1.5;
+    }
 
-        h3 {
-            font-size: 2rem;
-            font-weight: 600;
-            color: $tertiary-color;
-        }
+    ul{
+        list-style: circle;
+    }
+    a {
+        color: $secondary-color;
+        text-decoration: none;
+        // padding: 2px 2px;
 
-        b {
+        &:hover{
             color: $primary-color;
+            text-decoration: underline;
         }
-    }
-
-    .recent-projects {
-        margin-top: 1rem;
-    }
-
-    .recent-articles {
-        margin-top: 1rem;
     }
 }
+
+// .banner { Desktop version
+//     margin: 2rem;
+//     background: #172430;
+//     color: #ffffff;
+
+//     .nav{
+//         display: flex;
+//         flex-direction: row;
+//         justify-content: space-between;
+
+//         ul{
+//             list-style: none;
+//             display: flex;
+//             flex-direction: row;
+//             justify-items: flex-end;
+
+//             li{
+//                 a{
+//                     text-decoration: none;
+//                     color: #ffffff;
+//                     padding: 0rem 1rem;
+//                 }
+//             }
+//         }
+//     }
+// }
+// background-color: rgb(245, 84, 111);
