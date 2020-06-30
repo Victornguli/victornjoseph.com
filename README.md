@@ -10,5 +10,5 @@ To run this on your localhost:
 cd personal-blog
 pip install -r requirements.txt
 bundle exec jekyll build
-bundle exec jekyll server
+bundle exec jekyll serve
 ```
