@@ -65,34 +65,26 @@ body {
             padding-top: 1rem;
 
             .nav-brand {
+                margin-top: 1em;
+                margin-bottom: 1em;
+                display: flex;
+                align-items: center;
+                justify-content: center;
                 a {
                     text-decoration: none;
                     color: #ffffff;
+                    font-weight: bold;
+                    border: 2px solid $primary-color;
+                    padding: 0.5rem 1rem;
+                    border-radius: 2px;
 
                     &:focus {
                         border: none;
                     }
-                }
-
-                .nav-brand-img {
-                    display: inline-block;
-                    height: 4rem;
-                    width: 4rem;
-                    background: url("/assets/img/profile_small_2.jpg");
-                    border-radius: 100%;
-                    background-position: center;
-                    background-repeat: no-repeat;
-                    background-size: 100% 100%;
 
                     &:hover {
-                        transform: scale(1.2);
-                        transition: transform 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-                        border: 2px solid $primary-color;
-                    }
-
-                    &:focus {
-                        border: none;
-                        outline: none;
+                        background-color: $primary-color;
+                        transition: 0.3s ease-in-out;;
                     }
                 }
             }

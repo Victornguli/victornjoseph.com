@@ -21,9 +21,18 @@
                 justify-content: space-between;
 
                 .nav-brand {
-                    .nav-brand-img {
-                        height: 3rem;
-                        width: 3rem;
+                    margin-top: 1em;
+                    margin-bottom: 1em;
+                    display: flex;
+                    align-items: center;
+
+                    a {
+                        text-decoration: none;
+                        color: #ffffff;
+
+                        &:focus {
+                            border: none;
+                        }
                     }
                 }
 
