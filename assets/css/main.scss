@@ -24,6 +24,7 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-family: 'Nunito', sans-serif;
     font-size: 1.1rem;
+    background: #f8f7f7;
     
     &::before{
         background: $primary-color;
@@ -50,7 +51,6 @@ body {
 
 // Default layout styling
 .container {
-    background: #ffffff;
     min-height: 90%;
 
     .banner {

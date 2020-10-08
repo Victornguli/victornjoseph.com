@@ -52,6 +52,12 @@
             width: 80%;
             margin: auto;
             padding: 2rem;
+
+            .services-wrapper {
+                .services{
+                    flex-wrap: nowrap;
+                }
+            }
         }
     }
 }
