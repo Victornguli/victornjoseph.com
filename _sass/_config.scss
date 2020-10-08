@@ -1,7 +1,10 @@
-$secondary-color: rgb(235, 67, 37);
+$secondary-color: #DB9A64;
 $primary-color:rgba(242, 112, 156, 1);
 $gradient: linear-gradient(90deg, $primary-color 0%, $secondary-color 100%);
 $background: #172430;
+$light-background: #33526e;
+$old: rgb(235, 67, 37);
+
 
 
 @mixin easeOut {
@@ -18,13 +21,13 @@ $background: #172430;
 //     }
 // }
 
-// @mixin mediaMd {
+@mixin mediaMd {
 
-//     // Medium screen media query
-//     @media screen and (max-width: 990px) {
-//         @content;
-//     }
-// }
+    // Medium screen media query
+    @media screen and (min-width: 576px) {
+        @content;
+    }
+}
 
 @mixin mediaLg {
 

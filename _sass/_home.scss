@@ -1,15 +1,60 @@
-.home {
-    .services-wrapper {
-        h2{
-            text-align: center;
-            font-size: 2rem;
-        }
-        .services {
-            display: flex;
-            text-align: center;
-            flex-wrap: wrap;
+.home-banner {
+    .home-banner-content {
+        margin-top: 1rem;
+        text-align: left;
+        padding: 2rem 1rem 2rem 1rem;
 
-            .service{
+        h1 {
+            font-size: 2rem;
+            font-weight: 900;
+            line-height: 1;
+            color: $secondary-color;
+        }
+
+        .title {
+            padding-bottom: 2rem;
+        }
+
+        .banner-link {
+            margin-top: 0.5rem;
+            margin-right: .5rem;
+            padding: 0.7rem 1rem;
+            border-radius: 2px;
+            font-size: 1.2rem;
+            font-weight: 400;
+            color: #ffffff;
+            text-decoration: none;
+            border: 2px solid $secondary-color;
+            color: $secondary-color;
+
+            &.banner-link-secondary {
+                background: $secondary-color;
+                color: #ffffff;
+            }
+
+            &:hover {
+                background-color: $secondary-color;
+                transition: all 0.4s ease-in-out;
+                color: #ffffff;
+            }
+        }
+    }
+}
+
+.home {
+
+    .services-wrapper {
+
+        // margin: auto;
+        h2 {
+            font-size: 2rem;
+            color: #ffffff;
+        }
+
+        .services {
+
+            .service {
+                width: 100%;
                 border: 2px solid whitesmoke;
                 margin-right: 0.5rem;
                 padding: 1rem;
@@ -19,25 +64,27 @@
                 margin-bottom: 1rem;
 
                 &:hover {
-                    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+                    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
                 }
             }
         }
     }
+
     .intro {
         font-size: 1.15rem;
         line-height: 1.5;
     }
 
-    ul{
+    ul {
         list-style: circle;
     }
+
     a {
         color: $secondary-color;
         text-decoration: none;
         // padding: 2px 2px;
 
-        &:hover{
+        &:hover {
             color: $primary-color;
             text-decoration: underline;
         }

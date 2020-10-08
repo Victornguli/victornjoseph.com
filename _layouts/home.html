@@ -1,89 +1,176 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
 
-<div class="home">
-    <div class="services-wrapper">
-        <h2>My areas of expertise</h2>
-        <div class="services">
-            <div class="service">
-                <i class="fas fa-globe service-icon">
-                </i>
-                <h3>Fullstack software development</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam nesciunt modi deserunt libero
-                    sapiente?</p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+    <title>
+        {% if page.title %}
+        {{ page.title }}
+        {% else %}
+        {{ site.data.fields.title }}
+        {% endif %}
+    </title>
+    <meta name="generator" content="Jekyll v4.0.0" />
+    <meta property="og:title" content="Victor Nguli Joseph" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="description" content="{{ site.data.fields.description }}" />
+    <meta property="og:description" content="{{ site.data.fields.description }}" />
+    <link rel="canonical" href="https://www.victornguli.me" />
+    <meta property="og:url" content="https://www.victornguli.me" />
+    <meta property="og:site_name" content="{{ site.data.fields.name }}" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/assets/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/assets/img/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#584e4e">
+    <meta name="msapplication-config" content="/assets/img/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <script type="application/ld+json">
+        {
+            "headline": "Victor Nguli Joseph",
+            "url": "https://www.victornguli.me",
+            "description": "Victor's software engineering blog. I am a software developer and a passionate maker.",
+            "@type": "WebSite",
+            "name": "Victor Nguli Joseph",
+            "@context": "https://schema.org"
+        }
+    </script>
+    <!-- End Jekyll SEO tag -->
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link type="application/atom+xml" rel="alternate" href="https://www.victornguli.me/feed.xml"
+        title="Victor Nguli Joseph" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="banner home-banner">
+            <div class="nav">
+                <div class="nav-brand">
+                    <a href="/">victornguli</a>
+                </div>
+                <ul class="nav-list">
+                    <li class="nav-item {% if page.active %} active {% endif %}"><a href="/projects/">Projects</a></li>
+                    <li class="nav-item {% if page.active %} active {% endif %}"><a href="/articles/">Articles</a></li>
+                </ul>
             </div>
-            <div class="service">
-                <i class="fas fa-globe service-icon">
-                </i>
-                <h3>Web crawling and data extraction.</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam nesciunt modi deserunt libero
-                    sapiente?</p>
-            </div>
-            <div class="service">
-                <i class="fas fa-globe service-icon">
-                </i>
-                <h3>Web processes automation.</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam nesciunt modi deserunt libero
-                    sapiente?</p>
+            <div class="home-banner-content">
+                <div class="intro-greetings">
+                    &#128075; Hi! I am
+                </div>
+                <h1>Victor Nguli Joseph,</h1>
+                <div class="title"> A fullstack software developer</div>
+                <div class="call-wrapper" style="display: flex; flex-wrap: wrap">
+                    <a class="banner-link" href="/about/">Contact Me</a>
+                    <a class="banner-link banner-link-secondary" href="/about/">My portfolio</a>
+                </div>
             </div>
         </div>
+        <main class="main">
+            <div class="home">
+                <div class="intro">
+                    <h2>I am a software developer from Nairobi, Kenya working with both frontend and bakcend
+                        technologies to convert ideas and requirements into working, maintanable and robust software
+                    </h2>
+                </div>
+                <div class="services-wrapper">
+                    <h2>My Services</h2>
+                    <div class="services">
+                        <div class="service">
+                            <i class="fas fa-globe service-icon">
+                            </i>
+                            <h3>Fullstack software development</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam nesciunt modi
+                                deserunt libero
+                                sapiente?</p>
+                        </div>
+                        <div class="service">
+                            <i class="fas fa-globe service-icon">
+                            </i>
+                            <h3>Web crawling and data extraction.</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam nesciunt modi
+                                deserunt libero
+                                sapiente?</p>
+                        </div>
+                        <div class="service">
+                            <i class="fas fa-globe service-icon">
+                            </i>
+                            <h3>Web processes automation.</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam nesciunt modi
+                                deserunt libero
+                                sapiente?</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="intro">
+                    <p>
+                        I am currently working on <span>TechJobsAggregator</span>, a simple fullstack application for aggregating
+                        tech jobs posted on various local(Kenyan) job boards. This project was inspired by a previous project which
+                        was limited to a <a href="">CLI tool</a> that scraping those job boards.about
+                    </p>
+                    <p>
+                        Previously, I have created several tiny projects, mostly scripts and automation tools.
+                        I have abandoned numerous of these projects but the several that have survived and lived to
+                        see decent progress are showcased on my <a href="">projects page</a>
+                    </p>
+                    <p>
+                        I have a background in software engineering with a bachelor's degree in Computer Science from Chuka
+                        University,
+                        where I graduated on 2019. I have also held a Software Developer position at Financeplan ltd, where I enjoy
+                        contributing and collaborating in developement and maintanence of financial related software systems.
+                    </p>
+                    <p>
+                        I consider myself a fullstack developer but my skillset is skewed towards backend development, mainly
+                        developing systems in Python, NodeJs and C#. I often dabble in UI development too and enjoy creating
+                        Angular.js frontends and a huge fan of JAMSTACK as I have developed this site with Jekyll.
+                        I also enjoy creating automation scripts and bots to ease repetitive and manual tasks.
+                    </p>
+                    <p>
+                        You can read some of my articles <a href="">here</a>
+                        and can contact me or find more about me through either of the mediums below:
+                        <ul class="social-links">
+                            <li class="social-icon">
+                                <a href="">
+                                    <i class="fab fa-twitter"></i> Twitter
+                                </a>
+                            </li>
+                            <li class="social-icon">
+                                <a href="https://www.linkedin.com/in/victornguli/" target="_blank">
+                                    <i class="fab fa-linkedin"></i> Linkedin
+                                </a>
+                            </li>
+                            <li class="social-icon">
+                                <a href="mailto:victornjoseph@gmail.com" target="_blank">
+                                    <i class="fa fa-envelope"></i> Email
+                                </a>
+                            </li>
+                            <li class="social-icon">
+                                <a href="https://www.github.com/Victornguli" target="_blank">
+                                    <i class="fab fa-github"></i> Github
+                                </a>
+                            </li>
+                            <li class="social-icon">
+                                <a href="" target="_blank">
+                                    <i class="fa fa-file-alt"></i> Resume
+                                </a>
+                            </li>
+                        </ul>
+                    </p>
+                </div> -->
+                <!-- Include Later when Blog is active -->
+                <!-- <a class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p> -->
+            </div>
+        </main>
     </div>
-    <!-- <div class="intro">
-        <p>
-            I am currently working on <span>TechJobsAggregator</span>, a simple fullstack application for aggregating
-            tech jobs posted on various local(Kenyan) job boards. This project was inspired by a previous project which
-            was limited to a <a href="">CLI tool</a> that scraping those job boards.about
-        </p>
-        <p>
-            Previously, I have created several tiny projects, mostly scripts and automation tools.
-            I have abandoned numerous of these projects but the several that have survived and lived to
-            see decent progress are showcased on my <a href="">projects page</a>
-        </p>
-        <p>
-            I have a background in software engineering with a bachelor's degree in Computer Science from Chuka
-            University,
-            where I graduated on 2019. I have also held a Software Developer position at Financeplan ltd, where I enjoy
-            contributing and collaborating in developement and maintanence of financial related software systems.
-        </p>
-        <p>
-            I consider myself a fullstack developer but my skillset is skewed towards backend development, mainly
-            developing systems in Python, NodeJs and C#. I often dabble in UI development too and enjoy creating
-            Angular.js frontends and a huge fan of JAMSTACK as I have developed this site with Jekyll.
-            I also enjoy creating automation scripts and bots to ease repetitive and manual tasks.
-        </p>
-        <p>
-            You can read some of my articles <a href="">here</a>
-            and can contact me or find more about me through either of the mediums below:
-            <ul class="social-links">
-                <li class="social-icon">
-                    <a href="">
-                        <i class="fab fa-twitter"></i> Twitter
-                    </a>
-                </li>
-                <li class="social-icon">
-                    <a href="https://www.linkedin.com/in/victornguli/" target="_blank">
-                        <i class="fab fa-linkedin"></i> Linkedin
-                    </a>
-                </li>
-                <li class="social-icon">
-                    <a href="mailto:victornjoseph@gmail.com" target="_blank">
-                        <i class="fa fa-envelope"></i> Email
-                    </a>
-                </li>
-                <li class="social-icon">
-                    <a href="https://www.github.com/Victornguli" target="_blank">
-                        <i class="fab fa-github"></i> Github
-                    </a>
-                </li>
-                <li class="social-icon">
-                    <a href="" target="_blank">
-                        <i class="fa fa-file-alt"></i> Resume
-                    </a>
-                </li>
-            </ul>
-        </p>
-    </div> -->
-    <!-- Include Later when Blog is active -->
-    <!-- <a class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p> -->
-</div>
+    {% include footer.html %}
+</body>
+
+<!-- begin scripts -->
+<script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+<!-- end scripts -->
+
+</html>
