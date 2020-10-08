@@ -25,6 +25,7 @@ body {
     font-family: 'Nunito', sans-serif;
     font-size: 1.1rem;
     background: $background;;
+    color: #ffffff;
 }
 
 // Default layout styling
@@ -124,7 +125,6 @@ body {
     }
 
     .main {
-        margin: 1rem;
         word-wrap: none;
         text-align: left;
         letter-spacing: 0px;
