@@ -2,20 +2,20 @@
 @include mediaLg {
     body {
         &::before {
-            height: 15px;
+            height: 8px;
         }
 
         &::after {
-            height: 15px;
+            height: 8px;
         }
     }
 
     .container {
         .banner {
-            border: 15px solid $primary-color;
+            border: 8px solid $primary-color;
 
             .nav {
-                padding: 1rem 2rem 0 2rem;
+                padding: 1rem 5rem 0 5rem;
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
@@ -40,8 +40,9 @@
         }
 
         .main {
-            width: 60%;
+            width: 80%;
             margin: auto;
+            padding: 2rem;
         }
     }
 }
