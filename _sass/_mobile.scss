@@ -127,7 +127,13 @@
                     padding-right: 5rem;
 
                     .services {
-                        flex-wrap: nowrap;
+                        .service {
+
+                            .service-heading,
+                            .service-icon {
+                                text-align: center;
+                            }
+                        }
                     }
 
                     .statuses {

@@ -70,7 +70,7 @@
                 border-radius: 5px;
                 transition: 0.3s;
                 margin-bottom: 2rem;
-                text-align: center;
+                text-align: left;
                 box-shadow: 2px 8px 16px 0 rgba(0, 0, 0, 0.2);
                 background: $light-background;
 
@@ -80,7 +80,13 @@
                 }
 
                 .service-icon {
-                    color: $secondary-color;
+                    svg {
+                        height: 4rem;
+                        width: 4rem;
+                        fill: $secondary-color;
+                    }
+
+                    text-align: center;
                 }
 
                 .service-heading {
@@ -89,6 +95,7 @@
                     margin-top: 20px;
                     margin-bottom: 20px;
                     font-weight: 700;
+                    text-align: center;
                 }
 
                 .service-content {
