@@ -1,59 +1,4 @@
-// Desktops and laptops
-@include mediaLg {
-    body {}
-
-    .container {
-        .banner {
-
-            .nav {
-                padding: 1rem 5rem 0 5rem;
-                display: flex;
-                flex-direction: row;
-                justify-content: space-between;
-
-                .nav-brand {
-                    margin-top: 1em;
-                    margin-bottom: 1em;
-                    display: flex;
-                    align-items: center;
-
-                    a {
-                        text-decoration: none;
-                        color: #ffffff;
-
-                        &:focus {
-                            border: none;
-                        }
-                    }
-                }
-
-                ul.nav-list {
-                    li.nav-item {
-                        padding: 0.5rem 1rem 0.5rem 1rem;
-                    }
-                }
-            }
-
-            .banner-content {
-                width: 80%;
-            }
-        }
-
-        .main {
-            // width: 80%;
-            // margin: auto;
-            // padding: 2rem;
-
-            .services-wrapper {
-                .services {
-                    flex-wrap: nowrap;
-                }
-            }
-        }
-    }
-}
-
-// Tablets and small laptops
+// Large phones and small tablets
 @include mediaMd {
 
     .container {
@@ -86,10 +31,6 @@
                         padding: 0.5rem 1rem 0.5rem 1rem;
                     }
                 }
-            }
-
-            .banner-content {
-                width: 80%;
             }
 
             &.home-banner {
@@ -142,6 +83,95 @@
                         // .status {
                         //     flex-direction: column;
                         // }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+// Large tablets and small laptops
+@include mediaMdLg {
+    .container {
+        .banner {
+            .nav {
+                padding: 1rem 7rem 0 7rem;
+            }
+
+            &.home-banner {
+                .home-banner-content {
+                    padding: 2rem 1rem 4rem 8rem;
+                }
+            }
+        }
+
+        .main {
+            .home {
+
+                .services-wrapper,
+                .status-wrapper,
+                .more {
+                    padding-left: 8rem;
+                    padding-right: 8rem;
+                }
+            }
+        }
+    }
+}
+
+// Normal laptops and larger
+@include mediaLg {
+    .container {
+        .main {
+
+            .home {
+
+                .services-wrapper {
+
+                    .services {
+                        .service {
+                            padding: 1rem 2.5rem;
+                        }
+                    }
+                }
+
+                .status-wrapper {
+
+                    .statuses {
+                        width: 100%;
+                        margin: none;
+                        display: flex;
+                        justify-content: space-between;
+
+                        .status {
+                            flex: 1 1 0px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Large screens
+@include mediaXl {
+    .container {
+        .main {
+
+            .home {
+
+                .services-wrapper {
+
+                    .services {
+                        display: flex;
+                        // flex-wrap: wrap;
+
+                        .service {
+                            flex: 1 1 0px;
+                            margin-right: 1rem;
+                            padding: 1rem;
+                        }
                     }
                 }
             }

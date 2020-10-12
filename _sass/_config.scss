@@ -24,16 +24,24 @@ $old: rgb(235, 67, 37);
 
 @mixin mediaMd {
 
-    // Medium screen media query
+    // Medium Small screen media query
     @media screen and (min-width: 570px) {
+        @content;
+    }
+}
+
+@mixin mediaMdLg {
+
+    // Medium large screen media query
+    @media screen and (min-width: 768px) {
         @content;
     }
 }
 
 @mixin mediaLg {
 
-    // Large screen media query
-    @media screen and (min-width: 768px) {
+    // Normal Laptop screen media query
+    @media screen and (min-width: 978px) {
         @content;
     }
 }
@@ -41,7 +49,7 @@ $old: rgb(235, 67, 37);
 @mixin mediaXl {
 
     // Extra Large screen media query
-    @media screen and (max-width: 1168px) {
+    @media screen and (min-width: 1024px) {
         @content;
     }
 }
