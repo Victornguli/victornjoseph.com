@@ -1,7 +1,6 @@
 // Desktops and laptops
 @include mediaLg {
-    body {
-    }
+    body {}
 
     .container {
         .banner {
@@ -46,7 +45,7 @@
             // padding: 2rem;
 
             .services-wrapper {
-                .services{
+                .services {
                     flex-wrap: nowrap;
                 }
             }
@@ -55,56 +54,138 @@
 }
 
 // Tablets and small laptops
-// @include mediaMd {
-//     .container {
-//         max-width: 540px;
+@include mediaMd {
+
+    .container {
+        .banner {
+
+            .nav {
+                padding: 1rem 5rem 0 5rem;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+
+                .nav-brand {
+                    margin-top: 1em;
+                    margin-bottom: 1em;
+                    display: flex;
+                    align-items: center;
+
+                    a {
+                        text-decoration: none;
+                        color: #ffffff;
+
+                        &:focus {
+                            border: none;
+                        }
+                    }
+                }
+
+                ul.nav-list {
+                    li.nav-item {
+                        padding: 0.5rem 1rem 0.5rem 1rem;
+                    }
+                }
+            }
+
+            .banner-content {
+                width: 80%;
+            }
+
+            &.home-banner {
+                .home-banner-content {
+                    padding: 2rem 1rem 4rem 5rem;
+
+                    .intro-greetings,
+                    .title {
+                        font-size: 1.5rem;
+                    }
+
+                    h1 {
+                        font-size: 3rem;
+                    }
+
+                    .banner-link {
+                        margin-right: 1.5rem;
+                    }
+                }
+            }
+        }
+
+        .main {
+
+            .home {
+
+                .section-title {
+                    font-size: 1.85rem;
+                }
+
+                .services-wrapper,
+                .status-wrapper,
+                .more {
+                    padding-left: 5rem;
+                    padding-right: 5rem;
+
+                    .services {
+                        flex-wrap: nowrap;
+                    }
+
+                    .statuses {
+                        width: 70%;
+                        margin: auto;
+                        // .status {
+                        //     flex-direction: column;
+                        // }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// .projects {
+//     .title {
+//         font-size: 2rem;
+//         margin-bottom: 0.55rem;
+//     }
+
+//     .project-list {
+//         margin: 1.5rem auto auto auto;
+
+//         .project-item {
+//             display: block;
+
+//             .project-img,
+//             .details {
+//                 display: block;
+//                 grid-area: img;
+//                 width: 100%;
+//             }
+
+//             .details {
+//                 .project-title {
+//                     margin-top: 1rem;
+//                 }
+//             }
+//         }
 //     }
 // }
 
-//     .projects {
-//         .title {
-//             font-size: 2rem;
-//             margin-bottom: 0.55rem;
-//         }
+// .about {
+//     display: block;
 
-//         .project-list {
-//             margin: 1.5rem auto auto auto;
-
-//             .project-item {
-//                 display: block;
-
-//                 .project-img,
-//                 .details {
-//                     display: block;
-//                     grid-area: img;
-//                     width: 100%;
-//                 }
-
-//                 .details {
-//                     .project-title {
-//                         margin-top: 1rem;
-//                     }
-//                 }
-//             }
-//         }
-//     }
-
-//     .about {
+//     .bio,
+//     .education,
+//     .work-history {
+//         margin-bottom: 1rem;
 //         display: block;
-
-//         .bio,
-//         .education,
-//         .work-history {
-//             margin-bottom: 1rem;
-//             display: block;
-//         }
 //     }
+// }
 
-//     .contact {
-//         .contact-form {
-//             form {
-//                 width: 100%;
-//             }
+// .contact {
+//     .contact-form {
+//         form {
+//             width: 100%;
 //         }
 //     }
 // }

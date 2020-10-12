@@ -13,6 +13,7 @@ $old: rgb(235, 67, 37);
 
 
 // Media Query Mixins
+// The layout is mobile first so only medium plus media queries are added..
 // @mixin mediaSm {
 
 //     // Small screen media query
@@ -24,7 +25,7 @@ $old: rgb(235, 67, 37);
 @mixin mediaMd {
 
     // Medium screen media query
-    @media screen and (min-width: 576px) {
+    @media screen and (min-width: 570px) {
         @content;
     }
 }
@@ -37,10 +38,10 @@ $old: rgb(235, 67, 37);
     }
 }
 
-// @mixin mediaXl {
+@mixin mediaXl {
 
-//     // Extra Large screen media query
-//     @media screen and (max-width: 1168px) {
-//         @content;
-//     }
-// }
+    // Extra Large screen media query
+    @media screen and (max-width: 1168px) {
+        @content;
+    }
+}
