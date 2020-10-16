@@ -10,14 +10,15 @@
 
             .img-container {
                 border-radius: 5px;
-                padding: 1rem;
-                border: 1px solid #285172;
+                padding: 15px;
+                background:#285172;
 
                 .project-img {
+                    position: relative;
                     width: 100%;
-                    border-radius: 2px;
-                    // box-shadow: 0 1px 5px 0 #285172, 0 2px 20px 0 $light-background;
-                    box-shadow: 0 1px 5px #285172, 0 5px 30px #285172;
+                    margin-bottom: -30px;
+                    border-radius: 3px;
+                    box-shadow: 0 1px 5px $background, 0 2px 20px $background;
                     &:hover {
                         @include easeOut();
                     }
@@ -26,7 +27,7 @@
 
             .details {
                 .project-title {
-                    margin: 1rem 0rem 0.45rem 0rem;
+                    margin: 2rem 0rem 0.45rem 0rem;
                     font-size: 1.5rem;
                     font-weight: 600;
                 }
