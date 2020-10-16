@@ -1,16 +1,15 @@
 .projects {
-    margin: 2rem 0rem 1.5rem 0rem;
-
+    padding: 3rem 0rem 1.5rem 0rem;
     .project-list {
 
         .project-item {
             padding: 1rem;
             margin-bottom: 2rem;
-            width: 100%;
+
 
             .img-container {
                 border-radius: 5px;
-                padding: 15px;
+                padding: 1rem;
                 background:#285172;
 
                 .project-img {
@@ -30,6 +29,7 @@
                     margin: 2rem 0rem 0.45rem 0rem;
                     font-size: 1.5rem;
                     font-weight: 600;
+                    color: $secondary-color;
                 }
 
                 .description {

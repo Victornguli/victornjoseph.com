@@ -41,7 +41,7 @@ $old: rgb(235, 67, 37);
 @mixin mediaLg {
 
     // Normal Laptop screen media query
-    @media screen and (min-width: 978px) {
+    @media screen and (min-width: 968px) {
         @content;
     }
 }
