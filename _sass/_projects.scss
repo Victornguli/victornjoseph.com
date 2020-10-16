@@ -3,7 +3,7 @@
     .project-list {
 
         .project-item {
-            padding: 1rem;
+            padding: 1rem 3rem;
             margin-bottom: 2rem;
 
 
@@ -28,13 +28,14 @@
                 .project-title {
                     margin: 2rem 0rem 0.45rem 0rem;
                     font-size: 1.5rem;
-                    font-weight: 600;
+                    font-weight: 400;
                     color: $secondary-color;
                 }
 
                 .description {
                     font-size: 1.05rem;
                     margin-bottom: 0.75rem;
+                    color: #b9d1f2;
                 }
 
                 .tech {
@@ -74,7 +75,7 @@
                         color: $secondary-color;
                         margin: 0.7rem 0.5rem 0rem 0.25rem;
                         font-size: 0.9rem;
-                        font-weight: 700;
+                        font-weight: 400;
                         border-radius: 5px;
                         letter-spacing: 0.05px;
 

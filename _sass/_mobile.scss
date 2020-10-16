@@ -90,7 +90,6 @@
             .projects {
             
                 .project-list {
-                    padding: 1rem 3rem;
                     .project-item {
             
                         .img-container {
@@ -125,6 +124,16 @@
             &.home-banner {
                 .home-banner-content {
                     padding: 2rem 1rem 4rem 8rem;
+                }
+            }
+
+            .banner-content {
+                h1 {
+                    font-size: 3.5rem;
+                }
+                h4 {
+                    font-size: 1.75rem;
+                    font-weight: 300;
                 }
             }
         }
@@ -196,10 +205,12 @@
 
                             padding: 0 1rem;
                             .project-title {
-                                font-size: 2rem;
+                                font-size: 2.62rem;
                                 margin: 0rem 0rem 0.45rem 0rem;
+                                line-height: 110%;
                             }
-                            p{
+                            .description{
+                                line-height: 160%;
                                 font-size: 1.2rem;
                                 color: #b9d1f2;
                             }
@@ -267,10 +278,10 @@
                         .details {
                             width: 40%;
                             .project-title {
-                                font-size: 2.5rem;
+                                font-size: 3rem;
                                 margin: 0rem 0rem 0.45rem 0rem;
                             }
-                            p{
+                            .description{
                                 font-size: 1.2rem;
                                 color: #b9d1f2;
                             }
@@ -283,6 +294,7 @@
                             }
 
                             .project-controls{
+                                margin-top: 1rem;
                                 .preview-link,
                                 .github-link {
                                     font-size: 1rem;
@@ -293,6 +305,19 @@
             
                 }
             }
+        }
+    }
+}
+
+@include mediaLargeMax {
+    .banner-content {
+        max-width: 925px;
+    }
+
+    .projects {
+        .project-list {
+            max-width: 1300px;
+            margin: auto;
         }
     }
 }

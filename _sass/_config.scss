@@ -53,3 +53,9 @@ $old: rgb(235, 67, 37);
         @content;
     }
 }
+
+@mixin mediaLargeMax {
+    @media screen and (max-width: 1920px) {
+        @content;
+    }
+}
