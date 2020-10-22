@@ -119,6 +119,18 @@
         .banner {
             .nav {
                 padding: 1rem 7rem 0 7rem;
+
+                .nav-list {
+                    .nav-item {
+                        a{
+                            &:hover {
+                                &::after {
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
+                }
             }
 
             &.home-banner {
