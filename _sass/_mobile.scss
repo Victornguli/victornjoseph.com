@@ -119,7 +119,6 @@
         .banner {
             .nav {
                 padding: 1rem 7rem 0 7rem;
-
                 .nav-list {
                     .nav-item {
                         a{
@@ -140,6 +139,9 @@
             }
 
             .banner-content {
+
+                padding-top: 80px;
+
                 h1 {
                     font-size: 3.5rem;
                 }
@@ -167,6 +169,13 @@
 // Normal laptops and larger
 @include mediaLg {
     .container {
+
+        .banner {
+            .banner-content {
+                padding-top: 100px;
+            }
+        }
+        
         .main {
 
             .home {
