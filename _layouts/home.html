@@ -37,7 +37,7 @@
             "@type": "WebSite",
             "name": "Victor Nguli Joseph",
             "@context": "https://schema.org"
-        }
+        } 
     </script>
     <!-- End Jekyll SEO tag -->
     <link rel="stylesheet" href="/assets/css/main.css">
@@ -55,7 +55,7 @@
                 </div>
                 <ul class="nav-list">
                     <li class="nav-item {% if page.active %} active {% endif %}"><a href="/projects/">Projects</a></li>
-                    <li class="nav-item {% if page.active %} active {% endif %}"><a href="/about/">About</a></li>
+                    <!-- <li class="nav-item {% if page.active %} active {% endif %}"><a href="/about/">About</a></li> -->
                 </ul>
             </div>
             <div class="home-banner-content">
@@ -65,20 +65,13 @@
                 <h1>Victor Nguli Joseph,</h1>
                 <div class="title"> A fullstack software developer from Nairobi, Kenya</div>
                 <div class="call-wrapper" style="display: flex; flex-wrap: wrap">
-                    <a class="banner-link" href="/about/">Contact Me</a>
-                    <a class="banner-link banner-link-secondary" href="/about/">My portfolio</a>
+                    <a class="banner-link" href="#contact-me">Contact Me</a>
+                    <a class="banner-link banner-link-secondary" href="/projects/">My portfolio</a>
                 </div>
             </div>
         </div>
         <main class="main">
             <div class="home">
-                <!-- <div class="intro">
-                    <h3>I'm passionate to deliver software leveraging these skills
-                    </h3>
-                    <p>
-                        I 
-                    </p>
-                </div> -->
                 <div class="services-wrapper">
                     <h3 class="section-title">I can help you with: </h3>
                     <div class="services">
@@ -106,15 +99,9 @@
                             <div class="service-heading">Fullstack software development</div>
                             <p class="service-content">
                                 I will bring your idea to life by providing both back-end and front-end web
-                                development services. By leveraging modern technologies like Django, Flask, Angular.js,
-                                Vue.js, .NET Core among others, I can deliver
+                                development services. By leveraging modern development technologies like Django, Flask and Angular 2+ 
+                                among others, I can deliver <b>secure</b>, <b>robust</b> and well documented software solutions.
                             </p>
-                            <!-- <p class="service-content">
-                                By leveraging modern technologies like Django, Flask, Angular.js,
-                                Vue.js, .NET Core among others, I can deliver <b>secure</b>, <b>robust</b> and <b>well
-                                    documented and structured</b> applications that
-                                meet your requirements.
-                            </p> -->
                         </div>
                         <div class="service">
                             <div class="service-icon">
@@ -141,7 +128,7 @@
                                     an <a href=""></a> ETL pipeline to ensure unstructured data is not only extracted
                                     <b>respectfully</b>
                                     but also <b>sanitized</b>, <b>transformed</b> into desired formats and <b>stored</b>
-                                    in a modern database.
+                                    in a modern format.
                                 </p> -->
                             </p>
                         </div>
@@ -188,12 +175,12 @@
                                     <path d="m20 10h2v2h-2z" /></svg>
                             </div>
                             <div class="service-heading">Web Process Automation</div>
-                            <p class="service-content">
-                                Bogged down by repetitive or manual web tasks? I can help you
+                            <p class="service-content">I can help you
                                 <b>save</b> both
-                                <b>physical and mental effort</b>as well as <b>time</b> by automating various web
+                                <b>physical and mental effort </b>as well as <b>time</b> by automating manual and repetitive web
                                 processes.
-                                By hooking up into existing platforms such as Airtable, Zapier, Google Sheets, etc,
+                                These repetitive tasks can be automated by 
+                                hooking into various APIs like Google Sheets and Zapier to create a smooth flow of operations that will reduce manual intervention.
                                 <!-- <p class="service-content">
                                     By hooking up into existing platforms such as Airtable, Zapier, Google Sheets, etc,
                                     your repetitive tasks can be automated by connecting several services together to
@@ -347,66 +334,38 @@
                     </div>
                 </div>
 
-                <div class="more">
-                    <h3 class="section-title">More about me...</h3>
-                    <p>Click here to learn more about me or here to directly contact me through email or here to have a
-                        look at my portfolio of my personal projects</p>
+                <div class="more" id="contact-me">
+                    <h3 class="section-title">How to reach me...</h3>
+                    <p>Feel free to use the channels below to <b style="color: #DB9A64;">reach out</b> to me or <b style="color: #DB9A64;">find more</b> about me.</p>
+                    <ul class="social-links">
+                        <li class="social-icon">
+                            <a href="https://www.linkedin.com/in/victornguli/" target="_blank">
+                                <i class="fab fa-linkedin"></i> Linkedin
+                            </a>
+                        </li>
+                        <li class="social-icon">
+                            <a href="mailto:victornjoseph@gmail.com" target="_blank">
+                                <i class="fa fa-envelope"></i> Email
+                            </a>
+                            <span style="color: #DB9A64;">(victornjoseph@gmail.com)</span>
+                        </li>
+                        <li class="social-icon">
+                            <a href="https://www.github.com/Victornguli" target="_blank">
+                                <i class="fab fa-github"></i> Github
+                            </a>
+                        </li>
+                        <li class="social-icon">
+                            <a href="https://wa.me/254714309973" target="_blank">
+                                <i class="fab fa-whatsapp"></i> Whatsapp
+                            </a>
+                        </li>
+                        <li class="social-icon">
+                            <a href="" target="_blank">
+                                <i class="fa fa-file-alt"></i> Resume
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-                <!-- <div class="intro">
-                    <p>
-                        I am currently working on <span>TechJobsAggregator</span>, a simple fullstack application for aggregating
-                        tech jobs posted on various local(Kenyan) job boards. This project was inspired by a previous project which
-                        was limited to a <a href="">CLI tool</a> that scraping those job boards.about
-                    </p>
-                    <p>
-                        Previously, I have created several tiny projects, mostly scripts and automation tools.
-                        I have abandoned numerous of these projects but the several that have survived and lived to
-                        see decent progress are showcased on my <a href="">projects page</a>
-                    </p>
-                    <p>
-                        I have a background in software engineering with a bachelor's degree in Computer Science from Chuka
-                        University,
-                        where I graduated on 2019. I have also held a Software Developer position at Financeplan ltd, where I enjoy
-                        contributing and collaborating in developement and maintanence of financial related software systems.
-                    </p>
-                    <p>
-                        I consider myself a fullstack developer but my skillset is skewed towards backend development, mainly
-                        developing systems in Python, NodeJs and C#. I often dabble in UI development too and enjoy creating
-                        Angular.js frontends and a huge fan of JAMSTACK as I have developed this site with Jekyll.
-                        I also enjoy creating automation scripts and bots to ease repetitive and manual tasks.
-                    </p>
-                    <p>
-                        You can read some of my articles <a href="">here</a>
-                        and can contact me or find more about me through either of the mediums below:
-                        <ul class="social-links">
-                            <li class="social-icon">
-                                <a href="">
-                                    <i class="fab fa-twitter"></i> Twitter
-                                </a>
-                            </li>
-                            <li class="social-icon">
-                                <a href="https://www.linkedin.com/in/victornguli/" target="_blank">
-                                    <i class="fab fa-linkedin"></i> Linkedin
-                                </a>
-                            </li>
-                            <li class="social-icon">
-                                <a href="mailto:victornjoseph@gmail.com" target="_blank">
-                                    <i class="fa fa-envelope"></i> Email
-                                </a>
-                            </li>
-                            <li class="social-icon">
-                                <a href="https://www.github.com/Victornguli" target="_blank">
-                                    <i class="fab fa-github"></i> Github
-                                </a>
-                            </li>
-                            <li class="social-icon">
-                                <a href="" target="_blank">
-                                    <i class="fa fa-file-alt"></i> Resume
-                                </a>
-                            </li>
-                        </ul>
-                    </p>
-                </div> -->
                 <!-- Include Later when Blog is active -->
                 <!-- <a class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p> -->
             </div>

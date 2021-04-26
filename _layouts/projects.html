@@ -6,30 +6,61 @@ layout: default
     <div class="project-list">
         <div class="project-item card">
             <div class="img-container">
-                <img src="https://fakeimg.pl/350x300/?text=Hello" alt="Skraper" class="project-img">
+                <img src="/assets/img/flashlearn.jpg" alt="Skraper" class="project-img">
             </div>
             <div class="details">
                 <h4 class="project-title">
-                    Job Scraper CLI tool
+                    FlashLearn
+                </h4>
+                <div class="description">
+                    <p>
+                        A flashcard based learning application that helps to understand and remember concepts
+                        using timed repetition developed in Flask framework within a dockerised environment. 
+                    </p>
+                </div>
+                <ul class="tech">
+                    <li class="tech-tag">Python3</li>
+                    <li class="tech-tag">Flask</li>
+                    <li class="tech-tag">Docker</li>
+                    <li class="tech-tag">PostgresSql</li>
+                    <li class="tech-tag">SQLAlchemy</li>
+                    <li class="tech-tag">Redis</li>
+                    <li class="tech-tag">JavaScript</li>
+                </ul>
+                <div class="project-controls">
+                    <a href="https://flashcards.victornguli.me" target="_blank" class="preview-link">
+                        <i class="fa fa-external-link-alt"></i> Launch
+                    </a>
+                    <a href="https://github.com/Victornguli/flashlearn" target="_blank" class="github-link">
+                        <i class="fab fa-github"></i> View source code
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-item card">
+            <div class="img-container">
+                <img src="/assets/img/skraped.png" alt="Skraper" class="project-img">
+            </div>
+            <div class="details">
+                <h4 class="project-title">
+                    Skraped CLI
                 </h4>
                 <div class="description">
                     <p>
                         Skraped is a cli tool that scrapes and aggregates job posts from several
-                        local job sites and boards.
+                        local job sites and boards into clean and easily digestible csv files.
                     </p>
                 </div>
                 <ul class="tech">
                     <li class="tech-tag">Python3</li>
                     <li class="tech-tag">BeautifulSoup</li>
                     <li class="tech-tag">Requests</li>
-                    <li class="tech-tag">cli</li>
+                    <li class="tech-tag">PyYaml</li>
                     <li class="tech-tag">Web Scraping</li>
-                    <li class="tech-tag">csv</li>
+                    <li class="tech-tag">Pickle</li>
                 </ul>
                 <div class="project-controls">
-                    <a href="" class="preview-link">
-                        <i class="fa fa-external-link-alt"></i> Launch
-                    </a>
                     <a href="https://github.com/Victornguli/Skraped" target="_blank" class="github-link">
                         <i class="fab fa-github"></i> View source code
                     </a>
@@ -39,118 +70,34 @@ layout: default
 
         <div class="project-item card">
             <div class="img-container">
-                <img src="https://fakeimg.pl/350x300/?text=Hello" alt="Skraper" class="project-img">
+                <img src="/assets/img/notifier.png" alt="Skraper" class="project-img">
             </div>
             <div class="details">
                 <h4 class="project-title">
-                    Job Scraper CLI tool
+                    Data bundle expiry notifier bot
                 </h4>
                 <div class="description">
                     <p>
-                        Skraped is a cli tool that scrapes and aggregates job posts from several
-                        local job sites and boards.
+                        A simple telegram bot for notifying a user when their data bundle is about 
+                        to expire when using ISPs that do not preserve existing bundles on auto renewal.
+                        Can be additionally be configured to purchase/topup data packages via the 
+                        ISP web portal using Selenium ChromeWebDriver
                     </p>
                 </div>
                 <ul class="tech">
-                    <li class="tech-tag">Python3</li>
-                    <li class="tech-tag">BeautifulSoup</li>
-                    <li class="tech-tag">Requests</li>
-                    <li class="tech-tag">cli</li>
-                    <li class="tech-tag">Web Scraping</li>
-                    <li class="tech-tag">csv</li>
+                    <li class="tech-tag">Bottle</li>
+                    <li class="tech-tag">Python</li>
+                    <li class="tech-tag">Telegram Bot API</li>
+                    <li class="tech-tag">Selenium</li>
+                    <li class="tech-tag">CronTab</li>
+                    <li class="tech-tag">ChromeDriver</li>
                 </ul>
                 <div class="project-controls">
-                    <a href="" class="preview-link">
-                        <i class="fa fa-external-link-alt"></i> Launch
-                    </a>
-                    <a href="https://github.com/Victornguli/Skraped" target="_blank" class="github-link">
+                    <a href="https://github.com/Victornguli/data-expiry-bot" target="_blank" class="github-link">
                         <i class="fab fa-github"></i> View source code
                     </a>
                 </div>
             </div>
         </div>
-        <!-- <div class="project-item card">
-            <div class="img-container">
-                <img src="https://www.victornguli.me/img/jobbie.png" alt="Skraper" class="project-img">
-            </div>
-            <div class="details">
-                <h4 class="project-title">
-                    <a href="https://github.com/Victornguli/Skraped" target="_blank">Job Scraper CLI tool</a>
-                </h4>
-                <div class="description">
-                    <p>
-                        Skraped is a cli tool that scrapes and aggregates job posts from several
-                        local job sites and boards. I built this tool so that I could easily sift through
-                        several job posts from a configured set of job sources and aggragate these into manageable csv
-                        files. Through a set of configurations, options and filters such as search keywords, blacklisted
-                        companies, duplicate checks, etc can be added to improve the aggregation process.
-                    </p>
-                    <p>
-                        The core stack I used for this project is Python 3.6, BeautifulSoup library for parsing the
-                        scraped html, requests library for sending http requests to the scraped sources among other
-                        python libraries. The tool is also package ready and can be installed as a Python3 package and
-                        run on the terminal as such.
-                    </p>
-                </div>
-                <ul class="tech">
-                    <li class="tech-tag">Python3</li>
-                    <li class="tech-tag">BeautifulSoup</li>
-                    <li class="tech-tag">Requests</li>
-                    <li class="tech-tag">cli</li>
-                    <li class="tech-tag">Web Scraping</li>
-                    <li class="tech-tag">csv</li>
-                </ul>
-                <div class="project-controls">
-                    <a href="" class="preview-link">
-                        <i class="fa fa-external-link-alt"></i> Launch
-                    </a>
-                    <a href="https://github.com/Victornguli/Skraped" target="_blank" class="github-link">
-                        <i class="fab fa-github"></i> View source code
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        <div class="project-item card">
-            <div class="img-container">
-                <img src="https://www.victornguli.me/img/jobbie.png" alt="Skraper" class="project-img">
-            </div>
-            <div class="details">
-                <h4 class="project-title">
-                    <a href="https://github.com/Victornguli/Skraped" target="_blank">Job Scraper CLI tool</a>
-                </h4>
-                <div class="description">
-                    <p>
-                        Skraped is a cli tool that scrapes and aggregates job posts from several
-                        local job sites and boards. I built this tool so that I could easily sift through
-                        several job posts from a configured set of job sources and aggragate these into manageable csv
-                        files. Through a set of configurations, options and filters such as search keywords, blacklisted
-                        companies, duplicate checks, etc can be added to improve the aggregation process.
-                    </p>
-                    <p>
-                        The core stack I used for this project is Python 3.6, BeautifulSoup library for parsing the
-                        scraped html, requests library for sending http requests to the scraped sources among other
-                        python libraries. The tool is also package ready and can be installed as a Python3 package and
-                        run on the terminal as such.
-                    </p>
-                </div>
-                <ul class="tech">
-                    <li class="tech-tag">Python3</li>
-                    <li class="tech-tag">BeautifulSoup</li>
-                    <li class="tech-tag">Requests</li>
-                    <li class="tech-tag">cli</li>
-                    <li class="tech-tag">Web Scraping</li>
-                    <li class="tech-tag">csv</li>
-                </ul>
-                <div class="project-controls">
-                    <a href="" class="preview-link">
-                        <i class="fa fa-external-link-alt"></i> Launch
-                    </a>
-                    <a href="https://github.com/Victornguli/Skraped" target="_blank" class="github-link">
-                        <i class="fab fa-github"></i> View source code
-                    </a>
-                </div>
-            </div>
-        </div> -->
     </div>
 </div>
